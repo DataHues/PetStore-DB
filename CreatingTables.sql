@@ -6,6 +6,7 @@ CREATE TABLE Stores (
     City VARCHAR(50) NOT NULL,
     Zip VARCHAR(10) NOT NULL,
     OpenDate DATE NOT NULL,
+    StoreName VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE Employees (
